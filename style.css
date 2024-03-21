@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#home {
+  background-image: url(./bg\ photo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#home h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  color: aliceblue;
+}
+#home p {
+  text-align: center;
+  max-width: 550px;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: aliceblue;
+}
+
+.nav {
+  display: flex;
+  background-color: black;
+  height: 4rem;
+}
+.nav a:hover {
+  text-decoration: underline;
+  color: aqua;
+  font-size: 2rem;
+}
+.text {
+  margin: 1rem;
+}
+.text a {
+  align-items: center;
+  border: none;
+  color: aliceblue;
+  margin: 1rem;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 1rem;
+}
+
+.logo img {
+  height: 30px;
+}
+
+.order {
+  height: 1.7rem;
+  width: 5.2rem;
+  border-radius: 0.6rem;
+  background-color: rgb(60, 8, 8);
+  color: aliceblue;
+  align-items: center;
+}
+.order:hover {
+  background-color: red;
+  font-size: 1rem;
+}
+#menu img {
+  height: 400px;
+}
+#menu {
+  display: flex;
+  gap: 2rem;
+  padding: 1.9rem;
+  background-color: antiquewhite;
+  border-radius: 1rem;
+  margin-top: -3rem;
+  height: 15cm;
+}
+.info {
+  text-align: center;
+  gap: 2rem;
+  font-size: large;
+  background-color: burlywood;
+  border-radius: 1rem;
+}
+h3 {
+  font-size: 3.3rem;
+  margin: 1rem;
+}
+h1 {
+  margin: 5rem;
+  font-size: 5rem;
+  color: rgb(139, 9, 9);
+}
+p {
+  margin: 0.5rem;
+  font-size: 1.7rem;
+}
+.btn {
+  margin: 1rem;
+  border-radius: 0.5rem;
+  height: 1.6rem;
+  width: 5rem;
+}
+.btn:hover {
+  background-color: red;
+  font-size: 0.9rem;
+}
+#aboutus {
+  text-align: center;
+  width: 18cm;
+  margin-left: 20rem;
+  padding: 4rem;
+  height: 16cm;
+}
+h2 {
+  font-size: 6rem;
+  margin: 3rem;
+}
+p1 {
+  font-size: 2rem;
+  margin-left: 1rem;
+  padding: 0.1rem;
+}
+
+.name {
+  display: flex;
+  margin-left: 41rem;
+  /* text-align: center; */
+}
+#contact {
+  background-color: #f2f2f2;
+  padding: 8rem;
+  text-align: center;
+}
+#contact input{
+  width: 30rem;
+  height: 0.1rem;
+  font-size: 1rem;
+  padding: 1rem;
+  border-radius: 0.6rem;
+}
+#contact h2 {
+  font-size: 6rem;
+  margin-bottom: 4rem;
+}
+#contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+#contact textarea {
+  width: 30rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.6rem;
+  border: 1px solid #ccc;
+  height: 3rem;
+  border: 2px solid;
+}
+#contact button {
+  background-color: #555;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 2rem;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+footer {
+  text-align: center;
+  background-color: black;
+  color: aliceblue;
+}
+#contact button:hover {
+  background-color: red;
+  font-size: 1rem;
+}
